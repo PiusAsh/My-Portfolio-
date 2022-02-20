@@ -1,0 +1,173 @@
+.name {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 48px;
+  color: #FF014F;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.name1 {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 33px;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.44);
+}
+
+.bio {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.btn2 {
+  width: 180px;
+  height: 34px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 0px 10px 0px 10px;
+  background: #FF014F;
+  text-align: center;
+}
+
+.line0 {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  margin: 0px 0px 5px 0px;
+  background: #C4C4C4;
+  border: 9px solid #212428;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.port {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.btn1 {
+  background-color: #FF014F;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+.ntext {
+  padding: 10px;
+}
+
+.skilltext {
+  font-family: Open Sans;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 39px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+  text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.919);
+}
+
+.skillname {
+  font-family: Open Sans;
+  font-size: 22px;
+  font-weight: 900;
+  line-height: 39px;
+  text-align: center;
+  margin: 40px 0px 5px 0px;
+  color: #FFFFFF;
+  text-shadow: 0px 7px 7px #212428;
+}
+
+.skills {
+  margin-top: 120px;
+}
+
+.skillimg {
+  position: absolute;
+  width: 188px;
+  height: 205px;
+  left: 161px;
+  top: 1419.94px;
+  background: url(store.png);
+  /* BACK */
+  border: 31px solid #212428;
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.btns {
+  background-color: #FF014F;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.portt {
+  color: #FF014F;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.proh {
+  color: #FF014F;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.myy {
+  width: 200px;
+  height: 206px;
+  left: 469px;
+  top: 1418.94px;
+  border: 31px solid #212428;
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.tools {
+  border: 2px solid #191a1ca8;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  margin: 60px 0px 90px 0px;
+}
+
+.exp {
+  border-left: 2px solid #FF014F;
+  border-top: 3px solid #1c1d1f;
+}
+
+.skilltext1 {
+  font-family: Open Sans;
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 39px;
+  margin-bottom: 30px;
+  color: white;
+  text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.919);
+  border-bottom: 3px solid #1c1d1f;
+}
+
+.exptext {
+  color: #FF014F;
+  font-weight: 700;
+}
+
+.expdate {
+  font-weight: 700;
+  color: white;
+  font-weight: bold;
+}
+/*# sourceMappingURL=styles.css.map */

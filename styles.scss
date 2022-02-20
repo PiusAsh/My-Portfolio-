@@ -1,0 +1,249 @@
+$Primary-color: #212428;
+$Secondary-color: #FF014F;
+
+
+
+@mixin name {
+    font-family: Open Sans;
+font-style: normal;
+font-weight: 800;
+font-size: 35px;
+line-height: 48px;
+color: #FF014F;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.name{
+    @include name();
+}
+@mixin name1 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 33px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.44);
+}
+.name1{
+    @include name1();
+}
+@mixin bio {
+    font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+
+}
+.bio{
+    @include bio();
+}
+@mixin btn2 {
+    // position: absolute;
+    width: 180px;
+    height: 34px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 0px 10px 0px 10px;
+    background: #FF014F;
+    text-align: center
+}
+.btn2{
+    @include btn2();
+}
+@mixin line0 {
+    justify-content: space-around;
+    width: 100%;
+    margin: 0px 0px 5px 0px;
+    background: #C4C4C4;
+    border: 9px solid #212428;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+    
+        .line0 {
+            @include line0();
+        }
+        @mixin port {
+            display: flex; 
+        }
+        .port{
+            @include port();
+        }
+        @mixin btn1 {
+            background-color: $Secondary-color;
+            font-size: 17px;
+            font-weight: bold;
+            border-radius: 30px;
+            // padding: 0px 10px 0px 10px;
+        
+        }
+        .btn1 {
+            @include btn1();
+        }
+        @mixin ntext {
+            padding: 10px;
+        }
+        .ntext{
+            @include ntext();
+        }
+        @mixin skilltext {
+            font-family: Open Sans;
+            font-size: 30px;
+            font-weight: 900;
+            line-height: 39px;
+            text-align: center;
+           margin-bottom: 30px;
+        //    color: #ffffffd7;
+        color: white;
+           text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.919);
+        }
+    
+        .skilltext {
+            @include skilltext();
+        }
+        @mixin skillname {
+            font-family: Open Sans;
+      font-size: 22px;
+      font-weight: 900;
+     line-height: 39px;
+      text-align: center;
+      margin: 40px 0px 5px 0px;
+       color: #FFFFFF;
+       text-shadow: 0px 7px 7px $Primary-color;
+        }
+    
+        .skillname {
+            @include skillname();
+        }
+        @mixin skills {
+            margin-top: 120px;
+        }
+        .skills{
+            @include skills();
+        }
+        @mixin skillimg {
+            position: absolute;
+width: 188px;
+height: 205px;
+left: 161px;
+top: 1419.94px;
+
+background: url(store.png);
+/* BACK */
+
+border: 31px solid #212428;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+        .skillimg{
+            @include skillimg();
+        }
+
+        @mixin btns {
+            background-color: $Secondary-color;
+            font-size: 12px;
+            font-weight: bold;
+            font-style: italic;
+            // border: 1px solid;
+            border-radius: 10px;
+            // padding: 8px 10px 8px 10px;
+            text-decoration: none;
+            // margin: 30px 0px 10px 0px;
+            
+        }
+        .btns {
+               @include btns(); 
+            }
+            @mixin portt {
+            color: $Secondary-color;
+            font-family: 'Open Sans', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            }
+            .portt{
+                @include portt();
+            }
+            @mixin proh {
+            color: $Secondary-color;
+            font-family: 'Open Sans', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            }
+            .proh{
+                @include proh();
+            }
+            @mixin myy {
+                // width: 188px;
+                // height: 206px;
+                // position: absolute;
+width: 200px;
+height: 206px;
+left: 469px;
+top: 1418.94px;
+
+
+border: 31px solid #212428;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            }
+            .myy{
+                @include myy();
+            }
+            // @mixin tech{
+            //     position: absolute;
+            //    width: 450px;
+            //    height: 60px;
+            //    left: 300px;
+            //    top: 580px;
+            // }
+            // .tech{
+            //     @include tech();
+            // }
+            @mixin devss {
+                padding: 70px;
+            }
+            @mixin tools {
+                // background: #FF014F;
+                border: 2px solid #191a1ca8;
+                align-items: center;
+                color: white;
+                margin: 60px 0px 90px 0px;
+            }
+            .tools{
+                @include tools();
+            }
+            @mixin exp {
+                border-left: 2px solid #FF014F;
+                border-top: 3px solid #1c1d1f;
+            }
+            .exp{
+                @include exp();
+            }
+            @mixin skilltext1 {
+                font-family: Open Sans;
+                font-size: 25px;
+                font-weight: 900;
+                line-height: 39px;
+                // text-align: center;
+               margin-bottom: 30px;
+            //    color: #ffffffd7;
+            color: white;
+               text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.919);
+               border-bottom: 3px solid #1c1d1f;
+            }
+        
+            .skilltext1 {
+                @include skilltext1();
+            }
+            @mixin exptext {
+                color: #FF014F;
+                font-weight: 700;
+            }
+            .exptext{
+                @include exptext();
+            }
+            @mixin expdate {
+                font-weight: 700;
+                color: white;
+                font-weight: bold;
+            }
+            .expdate{
+                @include expdate();
+            }
