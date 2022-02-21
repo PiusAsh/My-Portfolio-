@@ -6,6 +6,7 @@
   line-height: 48px;
   color: #FF014F;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 50px;
 }
 
 .name1 {
@@ -86,7 +87,7 @@
 }
 
 .skills {
-  margin-top: 120px;
+  margin-top: 90px;
 }
 
 .skillimg {
@@ -169,5 +170,55 @@
   font-weight: 700;
   color: white;
   font-weight: bold;
+}
+
+.daat {
+  font-size: 20px;
+}
+
+.con {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.media {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 120px;
+}
+
+.txtt {
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.homee {
+  border-left: 2px solid #212428;
+  margin-right: 70px;
+}
+
+.tools1 {
+  border: 2px solid #191a1ca8;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  margin: 60px 0px 0px 0px;
+}
+
+.footer {
+  background: black;
+  border: 15px solid #000000;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.address {
+  margin-right: 60px;
 }
 /*# sourceMappingURL=styles.css.map */

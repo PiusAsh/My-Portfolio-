@@ -11,6 +11,7 @@ font-size: 35px;
 line-height: 48px;
 color: #FF014F;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+margin-top: 50px;
 }
 .name{
     @include name();
@@ -115,7 +116,7 @@ font-size: 15px;
             @include skillname();
         }
         @mixin skills {
-            margin-top: 120px;
+            margin-top: 90px;
         }
         .skills{
             @include skills();
@@ -246,4 +247,67 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
             }
             .expdate{
                 @include expdate();
+            }
+            @mixin daat{
+                font-size: 20px;
+            }
+            .daat{
+                @include daat();
+            }
+            @mixin con {
+                text-decoration: none;
+                font-family: 'Open Sans', sans-serif;
+                
+            }
+            .con{
+                @include con();
+            }
+            @mixin media {
+                font-family: 'Open Sans', sans-serif;
+                margin-top: 120px;
+            }
+            .media{
+                @include media();
+            }
+            @mixin txtt {
+                font-weight: 600;
+                font-family: 'Open Sans', sans-serif;
+
+            }
+            .txtt{
+            @include txtt();
+            }
+            @mixin homme {
+                border-left: 2px solid $Primary-color;
+                margin-right: 70px;
+            }
+            .homee{
+                @include homme();
+            }
+            @mixin tools1 {
+                // background: #FF014F;
+                border: 2px solid #191a1ca8;
+                align-items: center;
+                color: white;
+                margin: 60px 0px 0px 0px;
+            }
+            .tools1{
+                @include tools1();
+            }
+            @mixin footer {
+                background: black;
+                border: 15px solid #000000;
+                color: white;
+                justify-content: center;
+                font-family: 'Open Sans', sans-serif;
+                display: flex;
+            }
+            .footer{
+                @include footer();
+            }
+            @mixin address {
+                margin-right: 60px;
+            }
+            .address{
+                @include address();
             }
